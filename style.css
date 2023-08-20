@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #2f2f2f;
+    color: white;
+    padding: 0 2em;
+    box-shadow: 0 2px 10px #9797976b;
+}
+
+nav>div {
+    padding: 1em 0;
+}
+
+.logo {
+    font-size: 1.5em;
+
+}
+
+.menu>ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.menu>ul a {
+    padding: 1em;
+    padding-left: 0;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+
+}
+
+.menu>ul a:hover {
+    color: red
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2em 1em;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url(img/header-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: top;
+    color: #fff;
+}
+
+.header-left h1 {
+    font-size: 2.5rem;
+}
+
+.header-left .qoute {
+    margin: 1rem 0;
+    font-size: 1.5em;
+}
+
+.header-right img {
+    height: 30vh;
+}
+
+.content {
+    /* padding : 0 5rem; */
+}
+
+section[name="introduction"] {
+    background-color: #96d7a2;
+}
+
+section[name="journey"] {
+    background-color: #dbe995;
+}
+
+section[name="youtubeChannel"] {
+    background-color: #f8d1c1;
+}
+
+section[name="oldLectures"] {
+    color: #fff;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+section[name="internetResources"] {
+
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+
+
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+
+h2:hover {
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.name-highlight {
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: green;
+    padding: 2px 10px;
+}
+
+#introduction,
+#journey,
+#youtubeChannel,
+.oldLectureContent,
+#moreYoutubeChannel,
+#successJourney,
+#internetResources {
+    padding: 2em 5em;
+}
+
+.youtube-videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 4em;
+
+}
+
+.youtube-videos>iframe {
+    padding: 1em 0;
+}
+
+#moreYoutubeChannel {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.cards-youtube-channel {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.y-card {
+    text-align: center;
+    background-color: #fff;
+    padding: 1em;
+    margin: 3em 0;
+    width: 20%;
+    transform: perspective(50em) rotateY(30deg);
+    transform-style: preserve-3d;
+    box-shadow: 1px 2px 15px #999999bc;
+    transition: transform 0.5s ease-in-out;
+}
+
+.y-card:hover {
+    transform: none;
+}
+
+.c-avtar img {
+    width: 50%;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(190, 190, 190, 0.583);
+}
+
+.c-details>h5 {
+    font-size: 1.4em;
+    line-height: 2em;
+
+}
+
+.c-details .desc {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.c-details a {
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.c-details a:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+#successJourney {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0067a3 0%, #09776a 100%);
+
+    color: #fff;
+
+}
+
+.sj-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sj-container>div {
+    padding: 0 1em;
+}
+
+.sj-container>div>img {
+    transition: transform 0.5s ease-in-out;
+}
+
+.sj-container>div>img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+
+}
+
+.sj-container .qoute {
+    font-size: 1.8em;
+    line-height: 2em;
+    text-decoration: underline;
+}
+
+#internetResources ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#internetResources ul a {
+    background-image: linear-gradient(to right, #D31027 0%, #EA384D 51%, #D31027 100%);
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+}
+
+#internetResources ul a:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width : 1024px) {
+    .y-card {
+        width: 33.33%;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .y-card {
+
+        width: 50%;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    navbar {
+        position: static;
+        top: none;
+    }
+
+    #introduction,
+    #journey,
+    #youtubeChannel,
+    .oldLectureContent,
+    #moreYoutubeChannel,
+    #successJourney,
+    #internetResources {
+        padding: 2em;
+    }
+
+    .y-card {
+        transform: none;
+        width: 100%;
+    }
+
+    .header-left h1 {
+        font-size: 2rem;
+    }
+
+    .header-left .qoute {
+        line-height: 1.5em;
+    }
+}
