@@ -2,6 +2,8 @@
 
 Welcome to my GitHub repository where I showcase my webpage dedicated to my ideal person. This project was created using HTML and CSS to provide information about and pay tribute to someone who inspires me.
 
+![webpage-screenshot](screenshot.png)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -12,8 +14,6 @@ Welcome to my GitHub repository where I showcase my webpage dedicated to my idea
 ## Introduction
 
 In this project, I have created a webpage that highlights the qualities and characteristics of my ideal person. Whether it's a historical figure, a celebrity, a family member, or someone else who has had a profound impact on my life, this webpage serves as a tribute to them.
-
-![webpage-screenshot](screenshot.png)
 
 ## Accessing the Webpage
 
