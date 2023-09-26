@@ -19,7 +19,7 @@ In this project, I have created a webpage that highlights the qualities and char
 
 You can access the webpage by simply visiting the following URL:
 
-[My Ideal Person Webpage](https://anand-jaiswal-in.github.io/my-inspiration/#successJourney)
+[My Ideal Person Webpage](https://anand-jaiswal-in.github.io/my-inspiration/)
 ## Usage
 
 Feel free to explore the webpage to learn more about my ideal person. You can navigate through the content to discover why this individual is so important to me.
